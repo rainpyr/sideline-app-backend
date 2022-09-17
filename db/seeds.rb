@@ -54,15 +54,15 @@ Match.create!(
   ground: "MCG",
   start: Time.parse("2:00pm"),
   finish: Time.parse("5:00pm"),
-  home_score: 56,
-  away_score: 102,
+  home_score: 42,
+  away_score: 42,
 )
 Match.create!(
   date: Date.parse("September 3, 2022"),
   ground: "MCG",
   start: Time.parse("2:00pm"),
   finish: Time.parse("5:00pm"),
-  home_score: 56,
+  home_score: 118,
   away_score: 102,
 )
 Match.create!(
@@ -73,5 +73,5 @@ Match.create!(
   home_score: 56,
   away_score: 102,
 )
-
+# .strftime("%H:%M")
 puts "#{Match.count} Matches created."
